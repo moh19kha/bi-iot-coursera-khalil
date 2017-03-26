@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bi-iot-coursera-khalil
+  host: bi-iot-coursera-khalil
+  disk_quota: 1024M
+  services:
+  - bi-iot-coursera-khalil-cloudantNoSQLDB
+  - bi-iot-coursera-khalil-iotf-service
